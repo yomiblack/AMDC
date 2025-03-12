@@ -5,7 +5,7 @@ export default function Header() {
     <section>
       <div className="relative w-screen h-screen">
         {/* Logo */}
-        <div className="absolute left-6 top-6 sm:left-12 sm:top-12 md:left-24 md:top-0">
+        <div className="absolute left-6 top-2 sm:left-12 sm:top-12 md:left-24 md:-top-10">
           <Image
             src="/logo/Group 121763.svg"
             alt="amdc logo"
@@ -30,7 +30,7 @@ export default function Header() {
         </div>
 
         {/* Text Container */}
-        <div className="absolute left-0 top-32 sm:top-40 bg-[#CFA632] bg-no-repeat h-64 sm:h-80 md:h-96 w-full sm:w-[480px] md:w-[560px] shadow-2xl">
+        <div className="absolute left-0 top-32 sm:top-40 bg-[#CFA632] bg-no-repeat h-64 sm:h-80 md:h-96 w-full sm:w-[480px] md:w-[680px] md:top-44 shadow-2xl">
           <div className="absolute top-8 left-6 sm:top-14 sm:left-12 md:top-14 md:left-24">
             {/* Responsive Text Sizes and Spacing */}
             <p className="font-universe font-black text-2xl sm:text-3xl md:text-[35px] tracking-[4px] sm:tracking-[6px] md:tracking-[9px] leading-[1.2] sm:leading-[1.3] md:leading-[43px]">

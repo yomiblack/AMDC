@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#CDA532] py-8">
       <div className="container mx-auto">
-        <div className="pl-6 md:pl-24">
+        <div className="pl-6 md:pl-10">
           <Image
             src="/logo/Group 121764.svg"
             alt="Footer Logo"

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Org() {
   return (
     <section>
-      <div className="flex flex-wrap justify-around items-center gap-4 p-24">
+      <div className="flex flex-wrap justify-around items-center gap-4 pl-10 pr-10 pt-20 pb-20">
         {Array.from({ length: 6 }, (_, index) => (
           <div
             key={index}

@@ -83,7 +83,7 @@ export default function Timer({ targetDate }) {
 function TimeBox({ label, value }) {
   return (
     <div className="flex flex-col items-center">
-      <span className="text-xl sm:text-2xl md:text-3xl lg:text-[34px]">
+      <span className="text-4xl sm:text-5xl md:text-6xl lg:text-[54px]">
         {value}
       </span>
       <span className="text-[8px] sm:text-[9px] md:text-[10px] tracking-wider">
