@@ -24,3 +24,47 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: "Universe";
+  src: url("/fonts/universRegular.ttf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universe";
+  src: url("/fonts/universBold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universe";
+  src: url("/fonts/universLight.ttf") format("truetype");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universe Condensed";
+  src: url("/fonts/universCnRg.ttf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universe Condensed";
+  src: url("/fonts/universCnBold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-universe {
+    font-family: "Universe", sans-serif;
+  }
+  .font-universe-condensed {
+    font-family: "Universe Condensed", sans-serif;
+  }
+}
