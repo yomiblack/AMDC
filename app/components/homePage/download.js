@@ -55,7 +55,7 @@ export default function Download() {
           height={1200}
           quality={100}
           priority
-          className="w-full max-w-[1200px] mx-auto"
+          className="w-full max-w-screen"
         />
 
         {/* Download Button */}
@@ -65,7 +65,7 @@ export default function Download() {
             // Trigger the download of the PDF file
             const link = document.createElement("a");
             link.href = "/program/program.pdf";
-            link.download = "AMDC Program.pdf";
+            link.download = "AMDCProgram.pdf";
             link.click();
           }}
         >

@@ -5,6 +5,7 @@ import Speakers from "./speakers";
 import Venue from "./venue";
 import Footer from "./footer";
 import Download from "./download";
+import Attendees from "./attendees";
 
 export default function HomePage() {
   const eventDate = new Date("2025-03-15T20:00:00");
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Org />
       <Timer targetDate={eventDate} />
       <Download />
+      <Attendees />
       <Speakers />
       <Venue />
       <Footer />
