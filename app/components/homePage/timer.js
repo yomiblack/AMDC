@@ -51,7 +51,7 @@ export default function Timer({ targetDate }) {
   }, [targetDate]);
 
   return (
-    <section className="w-full flex flex-col md:flex-row justify-center items-center">
+    <section className="w-full flex flex-col md:flex-row justify-center items-center font-universe">
       <div className="flex w-full flex-col md:flex-row">
         {/* Left Section */}
         <div className="flex justify-center items-center w-full md:w-1/3 bg-[#01080B] text-white text-lg p-10">
