@@ -20,7 +20,29 @@ export default function Download() {
         <p>African Forum on Mining and the African Mining Vision</p>
       </div>
 
-      
+      {/* read more */}
+
+      <div className="text-white text-center">
+        <p>The African Mining Vision (AMV) is a policy adopted by the</p>
+        <p>African Union to ensure that Afica's vast mineral resources drive</p>
+        <p>
+          sustainable development and economic transformation. It envisions a
+        </p>
+        <p>mining sector that is transparent, equitable, and environmentally</p>
+        <p>
+          responsible, contributing to industrialization, job creation, and
+          poverty
+        </p>
+        <p>reduction. The AMV matters because it shifts Africa's mineral</p>
+        <p>development from a raw-materias export model to one that fosters</p>
+        <p></p>
+        <p>local value addition, beneficiation, and regional integration. By</p>
+        <p></p>
+        <Link>
+          <button>Read More</button>
+        </Link>
+      </div>
+
       {/* Program Sections */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-14 sm:gap-16 md:gap-40 px-4">
         {sections.map((section, index) => (
