@@ -2,41 +2,8 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export default function Speakers() {
+export default function Speakers({ speakers }) {
   const [hoveredSpeaker, setHoveredSpeaker] = useState(null);
-
-  const speakers = [
-    {
-      id: 1,
-      image: "/speakers/speaker1.png",
-      name: "John Doe",
-      bio: "Expert in AI and Machine Learning with 10+ years of experience.",
-    },
-    {
-      id: 2,
-      image: "/speakers/speaker2.png",
-      name: "Jane Smith",
-      bio: "Renowned data scientist and author of multiple best-selling books.",
-    },
-    {
-      id: 3,
-      image: "/speakers/speaker3.png",
-      name: "Alice Johnson",
-      bio: "Pioneer in blockchain technology and decentralized systems.",
-    },
-    {
-      id: 4,
-      image: "/speakers/speaker4.png",
-      name: "Bob Brown",
-      bio: "Leading expert in cybersecurity and ethical hacking.",
-    },
-    {
-      id: 5,
-      image: "/speakers/speaker5.png",
-      name: "Bob Brown",
-      bio: "Leading expert in cybersecurity and ethical hacking.",
-    },
-  ];
 
   return (
     <section className="py-12 bg-[#CFA53221]">
@@ -44,7 +11,7 @@ export default function Speakers() {
         <h2 className="text-3xl text-left mb-8 text-[#073A51] pl-10 mt-5">
           Meet the Speakers
         </h2>{" "}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 pl-10 pr-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 pl-10 pr-10">
           {speakers.map((speaker) => (
             <div
               key={speaker.id}
