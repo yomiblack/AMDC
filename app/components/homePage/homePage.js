@@ -10,7 +10,7 @@ import Gallery from "./gallery";
 import getSpeakerData from "./getSpeakerData";
 
 export default async function HomePage() {
-  const eventDate = new Date("2025-03-19T20:00:00");
+  const eventDate = new Date("2025-03-19T10:00:00");
   const speakers = await getSpeakerData();
   return (
     <div className="w-screen">

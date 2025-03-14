@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Download() {
@@ -9,37 +10,34 @@ export default function Download() {
   ];
 
   return (
-    <section className="w-full font-universe">
-      {/* Introduction */}
-      <div className="text-center mt-10 sm:mt-20 mb-14 sm:mb-20 text-[17px] sm:text-xl md:text-3xl font-extralight space-y-2 px-4">
-        <p>
-          Join the{" "}
-          <span className="font-bold">Africa Mining Vision at 16, </span> where
-          we talk about the
-        </p>
-        <p>African Forum on Mining and the African Mining Vision</p>
-      </div>
-
+    <section className="w-full font-universe mt-20">
       {/* read more */}
-
-      <div className="text-white text-center">
-        <p>The African Mining Vision (AMV) is a policy adopted by the</p>
-        <p>African Union to ensure that Afica's vast mineral resources drive</p>
-        <p>
+      <div className="text-black text-center font-universe font-extralight px-4 sm:px-8 md:px-16 lg:px-24">
+        {/* Combined Text */}
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+          The African Mining Vision (AMV) is a policy adopted by the African
+          Union to ensure that Africa&apos;s vast mineral resources drive
           sustainable development and economic transformation. It envisions a
-        </p>
-        <p>mining sector that is transparent, equitable, and environmentally</p>
-        <p>
+          mining sector that is transparent, equitable, and environmentally
           responsible, contributing to industrialization, job creation, and
-          poverty
+          poverty reduction. The AMV matters because it shifts Africa&apos;s
+          mineral development from a raw-materials export model to one that
+          fosters local value addition, beneficiation, and regional integration.
+          By promoting responsible governance, fair revenue distribution, and
+          social inclusivity, the AMV ensures that Africa&apos;s minerals
+          benefit all its people, creating a resilient and competitive mining
+          sector for future generations.
         </p>
-        <p>reduction. The AMV matters because it shifts Africa's mineral</p>
-        <p>development from a raw-materias export model to one that fosters</p>
-        <p></p>
-        <p>local value addition, beneficiation, and regional integration. By</p>
-        <p></p>
-        <Link>
-          <button>Read More</button>
+
+        {/* Read More Button */}
+        <Link
+          href="https://au.int/sites/default/files/documents/30995-doc-africa_mining_vision_english_1.pdf"
+          target="_blank" // Open link in a new tab
+          rel="noopener noreferrer" // Security best practice for external links
+        >
+          <button className="mt-10 mb-28 bg-[#CFA432] text-white font-universe text-[12px] sm:text-sm md:text-base font-extralight px-10 py-2 hover:bg-[#B38F2A] transition-colors duration-300">
+            Read More
+          </button>
         </Link>
       </div>
 
@@ -88,7 +86,7 @@ export default function Download() {
           {/* Text Content */}
           <div className="space-y-0 text-sm sm:text-[16px] md:text-[18px] font-universe font-extralight">
             <p>The African Mining Vision (AMV) is an African Union</p>
-            <p>policy framework that ensures Africa's mineral</p>
+            <p>policy framework that ensures Africa&apos;s mineral</p>
             <p>wealth drives sustainable development. It promotes</p>
             <p>a transparent, equitable, and responsible mining</p>
             <p>sector that supports industrialization, job creation,</p>
