@@ -165,7 +165,7 @@ export default async function getSpeakerData() {
     },
     {
       id: 28,
-      image: "/speakers/speaker28.jpg",
+      image: "/speakers/speaker28.png",
       name: "Kundai Chikonzo Midzi",
       bio: "Businesswoman and mining industry pioneer.",
     },

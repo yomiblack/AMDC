@@ -11,7 +11,7 @@ export default function Speakers({ speakers }) {
         <h2 className="text-3xl text-left mb-8 text-[#073A51] pl-10 mt-5">
           Meet the Speakers
         </h2>{" "}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 pl-10 pr-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 pl-10 pr-10">
           {speakers.map((speaker) => (
             <div
               key={speaker.id}
@@ -39,10 +39,15 @@ export default function Speakers({ speakers }) {
               </div>
 
               {/* Speaker Name and Bio */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white text-center transition-transform duration-300 ease-out transform translate-y-0 group-hover:-translate-y-12">
-                <h3 className="text-xl font-bold">{speaker.name}</h3>
+              <div className="font-universe absolute bottom-0 left-0 right-0 p-6 text-white text-center transition-transform duration-300 ease-out transform translate-y-0 group-hover:-translate-y-12">
+                {/* Speaker Name */}
+                <p className="absolute bottom-4 left-1 text-[14px] font-bold whitespace-nowrap overflow-hidden overflow-ellipsis">
+                  {speaker.name}
+                </p>
+
+                {/* Speaker Bio */}
                 <p
-                  className={`mt-2 text-sm transition-opacity duration-300 ease-out ${
+                  className={`mb-4 text-sm transition-opacity duration-300 ease-out ${
                     hoveredSpeaker === speaker.id ? "opacity-100" : "opacity-0"
                   }`}
                 >
