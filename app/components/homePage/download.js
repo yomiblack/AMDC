@@ -83,7 +83,7 @@ export default function Download() {
           {/* Text Content */}
           <div className="pl-12 pr-4 space-y-0 text-sm sm:text-[16px] md:text-[18px] font-universe font-extralight">
             <p className=" md:max-w-[600px] ">
-              Why the African Mining Vision Matters
+              Why the African Mining Vision Matters!
               <br /> The African Mining Vision (AMV) is a policy framework
               adopted by the African Union to ensure that Africa&apos;s vast
               mineral resources drive sustainable development and economic

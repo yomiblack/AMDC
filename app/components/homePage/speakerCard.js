@@ -43,15 +43,16 @@ export default function SpeakerCard({ speaker }) {
           src={speaker.image}
           alt={speaker.name}
           fill
-          className="object-cover"
+          className="object-contain"
           quality={100}
           sizes="100vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
-        {/* Gradient Overlay */}
+
+        {/* Gradient Overlay (Added Here) */}
         <div
           className={`absolute inset-0 bg-gradient-to-t from-[#083A51] to-white opacity-0 transition-opacity duration-300 ease-out ${
-            isHovered ? "opacity-90" : ""
+            isHovered ? "opacity-50" : ""
           }`}
         />
       </div>
