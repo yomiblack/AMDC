@@ -46,7 +46,7 @@ export default function SpeakerCard({ speaker }) {
           className="object-cover"
           quality={100}
           sizes="100vw"
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "contain" }}
         />
         {/* Gradient Overlay */}
         <div

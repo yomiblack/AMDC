@@ -15,18 +15,15 @@ export default function Download() {
       <div className="text-black text-center font-universe font-extralight px-4 sm:px-8 md:px-16 lg:px-24">
         {/* Combined Text */}
         <p className="text-sm sm:text-base md:text-lg lg:text-xl">
-          The African Mining Vision (AMV) is a policy adopted by the African
-          Union to ensure that Africa&apos;s vast mineral resources drive
-          sustainable development and economic transformation. It envisions a
-          mining sector that is transparent, equitable, and environmentally
-          responsible, contributing to industrialization, job creation, and
-          poverty reduction. The AMV matters because it shifts Africa&apos;s
-          mineral development from a raw-materials export model to one that
-          fosters local value addition, beneficiation, and regional integration.
-          By promoting responsible governance, fair revenue distribution, and
-          social inclusivity, the AMV ensures that Africa&apos;s minerals
-          benefit all its people, creating a resilient and competitive mining
-          sector for future generations.
+          The African Forum on Mining (AFM) is a platform dedicated to fostering
+          dialogue, collaboration, and policy innovation in Africa&apos;s mining
+          sector. Anchored in the African Mining Vision (AMV), AFM brings
+          together key stakeholders—including policymakers, industry leaders,
+          civil society, and academia—to shape the future of mineral resource
+          governance. The AMV, adopted by the African Union, serves as a
+          blueprint for sustainable and inclusive mining, ensuring that
+          Africa&apos;s vast mineral wealth drives economic development,
+          industrialization, and social transformation.
         </p>
 
         {/* Read More Button */}
@@ -82,18 +79,21 @@ export default function Download() {
         </div>
 
         {/* Text and Button Container */}
-        <div className="relative w-full sm:w-2/3 h-full bg-black text-white font-extralight font-universe sm:text-left text-center text-[18px] pb-32 pt-10 pl-12 pr-12 sm:pr-0">
+        <div className="relative w-full sm:w-2/3 h-full bg-black text-white font-extralight font-universe sm:text-left text-center text-[18px] pb-32 pt-10  pr-4 sm:pr-0">
           {/* Text Content */}
-          <div className="space-y-0 text-sm sm:text-[16px] md:text-[18px] font-universe font-extralight">
-            <p>The African Mining Vision (AMV) is an African Union</p>
-            <p>policy framework that ensures Africa&apos;s mineral</p>
-            <p>wealth drives sustainable development. It promotes</p>
-            <p>a transparent, equitable, and responsible mining</p>
-            <p>sector that supports industrialization, job creation,</p>
-            <p>and poverty reduction. By shifting from raw-material</p>
-            <p>exports to local value addition and regional</p>
-            <p>integration, the AMV fosters fair governance,</p>
-            <p>inclusive growth, and long-term economic resilience.</p>
+          <div className="pl-12 pr-4 space-y-0 text-sm sm:text-[16px] md:text-[18px] font-universe font-extralight">
+            <p className=" md:max-w-[600px] ">
+              Why the African Mining Vision Matters
+              <br /> The African Mining Vision (AMV) is a policy framework
+              adopted by the African Union to ensure that Africa&apos;s vast
+              mineral resources drive sustainable development and economic
+              transformation. It envisions a mining sector that is transparent,
+              equitable, and environmentally responsible, contributing to
+              industrialization, job creation, and poverty reduction. The AMV
+              matters because it shifts Africa&apos;s mineral development from a
+              raw-materials export model to one that fosters local value
+              addition, beneficiation, and regional integration.
+            </p>
           </div>
 
           {/* Download Button */}

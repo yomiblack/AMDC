@@ -8,6 +8,7 @@ import Download from "./download";
 import Attendees from "./attendees";
 import Gallery from "./gallery";
 import getSpeakerData from "./getSpeakerData";
+import Attending from "./attending";
 
 export default async function HomePage() {
   const eventDate = new Date("2025-03-19T10:00:00");
@@ -20,6 +21,7 @@ export default async function HomePage() {
       <Download />
       <Attendees />
       <Speakers speakers={speakers} />
+      <Attending />
       <Gallery />
       <Venue />
       <Footer />

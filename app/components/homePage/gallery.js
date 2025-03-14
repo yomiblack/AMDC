@@ -1,10 +1,9 @@
-"use client";
 import Image from "next/image";
 
 export default function Gallery() {
   return (
     <section
-      className="bg-cover bg-center min-h-screen flex flex-col justify-center items-center p-8 sm:p-12 md:p-16 lg:p-20"
+      className="bg-cover bg-center flex flex-col justify-center items-center p-8 sm:p-12 md:p-16 lg:p-20"
       style={{ backgroundImage: "url('/gallery/galleryBackground.png')" }}
     >
       {/* Gallery Text */}
@@ -13,7 +12,7 @@ export default function Gallery() {
       </p>
 
       {/* Gallery Image */}
-      <div className="w-full max-w-screen-lg mt-2 sm:mt-6 md:mt-8 lg:mt-10">
+      <div className="w-full max-w-screen-lg mt-2 ">
         <Image
           src="/gallery/gallery2.png"
           alt="Gallery Image"
