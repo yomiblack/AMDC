@@ -32,21 +32,20 @@ export default function SpeakerCard({ speaker }) {
 
   return (
     <div
-      className="relative overflow-hidden shadow-lg group"
+      className="relative overflow-hidden shadow-lg group mb-10"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onClick={() => setIsHovered(!isHovered)} // For mobile click
     >
       {/* Speaker Image */}
-      <div className="relative h-96 w-full">
+      <div className="relative w-full h-96">
         <Image
           src={speaker.image}
           alt={speaker.name}
           fill
-          className="object-contain"
+          className="object-cover" // Use object-contain to ensure the entire image is visible
           quality={100}
-          sizes="100vw"
-          style={{ objectFit: "cover" }}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive sizes
         />
 
         {/* Gradient Overlay (Added Here) */}
@@ -58,15 +57,14 @@ export default function SpeakerCard({ speaker }) {
       </div>
 
       {/* Speaker Name and Bio */}
-      <div className="absolute bottom-0 left-0 right-0 p-6 text-white text-left">
+      <div className="absolute bottom-0 left-0 right-0 p-3 text-white text-left">
         {/* Speaker Name */}
         <p
           id={`name-${speaker.id}`} // Unique ID for the name element
-          className={`font-universe absolute bottom-4 text-[14px] font-bold whitespace-nowrap overflow-hidden overflow-ellipsis transition-transform duration-300 ease-out max-w-[200px]`}
+          className={`font-universe absolute bottom-4 text-[14px] font-bold  transition-transform duration-300 ease-out max-w-[90%]`}
         >
           {speaker.name}
         </p>
-
         {/* Speaker Bio */}
         <p
           ref={bioRef} // Store bio element in ref

@@ -155,7 +155,7 @@ export default async function getSpeakerData() {
       id: 26,
       image: "/speakers/speaker26.jpg",
       name: "Mecktilder M. Mchomvu",
-      bio: "Co-Founder and CCO of WOOW ME JEWEL LTD,",
+      bio: "Co-Founder and CCO of WOOW ME JEWEL LTD.",
     },
     {
       id: 27,
@@ -165,9 +165,51 @@ export default async function getSpeakerData() {
     },
     {
       id: 28,
-      image: "/speakers/speaker28.png",
+      image: "/speakers/speaker28.jpg",
       name: "Kundai Chikonzo Midzi",
       bio: "Businesswoman and mining industry pioneer.",
+    },
+    {
+      id: 29,
+      image: "/speakers/speaker29.jpg",
+      name: "Maspalma Samson Stanley",
+      bio: "Assistant Director and Special Adviser to the Director General Nigerian Geological Survey Agency (NGSA).",
+    },
+    {
+      id: 30,
+      image: "/speakers/speaker30.jpg",
+      name: "Mr. Leshilo William",
+      bio: "Vice President: Government Relations and Community Business Partner - AngloGold Ashanti.",
+    },
+    {
+      id: 31,
+      image: "/speakers/speaker31.jpg",
+      name: "Mr. Tatenda Mungofa",
+      bio: "Representative, MUREZA; innovator in mining tech.",
+    },
+    {
+      id: 32,
+      image: "/speakers/speaker32.jpg",
+      name: "Dr. Daniel Kwayisi",
+      bio: "Academic and digital strategist in mining.",
+    },
+    {
+      id: 33,
+      image: "/speakers/speaker33.jpg",
+      name: "Mr. Emmanuel K. Bensah",
+      bio: "Coordinator AUDA-NEPAD’s Agenda 2063 Media Network.",
+    },
+    {
+      id: 34,
+      image: "/speakers/speaker34.jpg",
+      name: "Ms. Zenzi Natasha Awases",
+      bio: "Consultant Speaker & Coach: Sustainability & Governance, Leadership & Equality Development, Workplace Culture Enhancement, Strategic Policy.",
+    },
+    {
+      id: 35,
+      image: "/speakers/speaker35.jpg",
+      name: "Ms. Noreen Kidunduhu",
+      bio: "Chairpersion | Association for Women in Energy and Extractives in Kenya (AWEIK).",
     },
   ];
   return speakers;

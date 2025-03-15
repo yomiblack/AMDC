@@ -39,7 +39,7 @@ export default function Download() {
       </div>
 
       {/* Program Sections */}
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-14 sm:gap-16 md:gap-40 px-4">
+      <div className="flex flex-col sm:flex-row justify-around items-center gap-14 sm:gap-16 md:gap-40 px-4">
         {sections.map((section, index) => (
           <div
             key={index}
@@ -83,7 +83,9 @@ export default function Download() {
           {/* Text Content */}
           <div className="pl-12 pr-4 space-y-0 text-sm sm:text-[16px] md:text-[18px] font-universe font-extralight">
             <p className=" md:max-w-[600px] ">
-              Why the African Mining Vision Matters!
+              <span className="text-[#CEA631] font-bold">
+                Why the African Mining Vision Matters?
+              </span>
               <br /> The African Mining Vision (AMV) is a policy framework
               adopted by the African Union to ensure that Africa&apos;s vast
               mineral resources drive sustainable development and economic
