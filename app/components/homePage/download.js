@@ -79,10 +79,10 @@ export default function Download() {
         </div>
 
         {/* Text and Button Container */}
-        <div className="relative w-full sm:w-2/3 h-full bg-black text-white font-extralight font-universe sm:text-left text-center text-[18px] pb-32 pt-10  pr-4 sm:pr-0">
+        <div className="relative w-full sm:w-2/3 h-full bg-black text-white font-extralight font-universe sm:text-left text-center text-[18px] pb-32 pt-10 pr-4 sm:pr-0">
           {/* Text Content */}
           <div className="pl-12 pr-4 space-y-0 text-sm sm:text-[16px] md:text-[18px] font-universe font-extralight">
-            <p className=" md:max-w-[600px] ">
+            <p className="md:max-w-[600px]">
               <span className="text-[#CEA631] font-bold">
                 Why the African Mining Vision Matters?
               </span>
@@ -98,31 +98,52 @@ export default function Download() {
             </p>
           </div>
 
-          {/* Download Button */}
-          <button
-            className="absolute bg-[#CEA631] text-white px-4 py-2 sm:px-6 sm:py-3 flex items-center justify-center space-x-2 bottom-4 sm:bottom-10 left-1/2 sm:left-0 transform -translate-x-1/2 sm:translate-x-12 hover:bg-[#B38F2A] transition-colors duration-300 shadow-2xl"
-            onClick={() => {
-              // Trigger the download of the PDF file
-              const link = document.createElement("a");
-              link.href = "/program/program.pdf";
-              link.download = "AMDCProgram.pdf";
-              link.click();
-            }}
-          >
-            {/* Download Text */}
-            <span className="font-universe text-sm sm:text-lg text-nowrap">
-              Download Program
-            </span>
+          {/* Download and Report Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8 absolute bottom-4 sm:bottom-10 left-1/2 transform -translate-x-1/2 sm:translate-x-0 sm:left-12">
+            {/* Download Program Button */}
+            <button
+              className="bg-[#CEA631] text-white px-4 py-2 sm:px-6 sm:py-3 flex items-center justify-center space-x-2 hover:bg-[#B38F2A] transition-colors duration-300 shadow-2xl"
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/program/program.pdf";
+                link.download = "AMDCProgram.pdf";
+                link.click();
+              }}
+            >
+              <span className="font-universe text-sm sm:text-lg text-nowrap">
+                Download Program
+              </span>
+              <Image
+                src={"/downloadProgram/downloadSign.svg"}
+                alt="Download Sign"
+                width={20}
+                height={20}
+                className="w-5 h-5 sm:w-6 sm:h-6"
+              />
+            </button>
 
-            {/* Download Sign */}
-            <Image
-              src={"/downloadProgram/downloadSign.svg"}
-              alt="Download Sign"
-              width={20}
-              height={20}
-              className="w-5 h-5 sm:w-6 sm:h-6"
-            />
-          </button>
+            {/* Download Report Button */}
+            <button
+              className="bg-[#C3C2BF] text-white px-4 py-2 sm:px-6 sm:py-3 flex items-center justify-center space-x-2 hover:bg-[#A8A7A5] transition-colors duration-300 shadow-2xl"
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/program/report.pdf";
+                link.download = "AMDCReport.pdf";
+                link.click();
+              }}
+            >
+              <span className="font-universe text-sm sm:text-lg text-nowrap">
+                Download Report
+              </span>
+              <Image
+                src={"/downloadProgram/downloadSign.svg"}
+                alt="Download Sign"
+                width={20}
+                height={20}
+                className="w-5 h-5 sm:w-6 sm:h-6"
+              />
+            </button>
+          </div>
         </div>
       </div>
     </section>

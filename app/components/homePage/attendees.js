@@ -30,7 +30,7 @@ export default function Attendees() {
   return (
     <section className="w-full bg-[#CFA432] py-12 sm:py-16 md:py-40 md:px-40">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-16 md:gap-24">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-16 md:gap-14">
           {/* Speakers */}
           <div className="flex-1 text-center">
             <p className="text-5xl sm:text-6xl md:text-7xl font-bold text-white">
