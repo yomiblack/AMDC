@@ -9,6 +9,7 @@ export default function SpeakerCard({ speaker }) {
   const [modalHeight, setModalHeight] = useState("auto"); // Dynamic height
   const modalRef = useRef(null);
   const cardRef = useRef(null);
+  const contentRef = useRef(null);
 
   // Detect mobile
   useEffect(() => {
@@ -38,9 +39,8 @@ export default function SpeakerCard({ speaker }) {
   // Handle hover to show modal (desktop only)
   const handleMouseEnter = (e) => {
     if (!isMobile) {
-      const { top, left, height } = calculatePositionAndHeight(e);
+      const { top, left } = calculatePosition(e);
       setModalPosition({ top, left });
-      setModalHeight(height);
       setShowModal(true);
     }
   };
@@ -48,19 +48,16 @@ export default function SpeakerCard({ speaker }) {
   // Handle click to toggle modal (mobile only)
   const handleClick = (e) => {
     if (isMobile) {
-      const { top, left, height } = calculatePositionAndHeight(e);
+      const { top, left } = calculatePosition(e);
       setModalPosition({ top, left });
-      setModalHeight(height);
       setShowModal((prev) => !prev);
     }
   };
 
-  // Calculate modal position and height to ensure it stays within the viewport
-  const calculatePositionAndHeight = (e) => {
+  // Calculate modal position to ensure it stays within the viewport
+  const calculatePosition = (e) => {
     const padding = 20; // padding from edges
     const modalWidth = 350;
-    const minModalHeight = 200; // Minimum height for the modal
-    const maxModalHeight = window.innerHeight - 2 * padding; // Maximum height based on viewport
 
     let top = e.clientY + 10;
     let left = e.clientX + 10;
@@ -74,19 +71,9 @@ export default function SpeakerCard({ speaker }) {
     }
 
     // Adjust position if modal goes out of viewport vertically
-    if (top + minModalHeight > window.innerHeight - padding) {
-      top = window.innerHeight - minModalHeight - padding;
-    }
     if (top < padding) {
       top = padding;
     }
-
-    // Calculate available height for the modal
-    const availableHeight = window.innerHeight - top - padding;
-    const height = Math.min(
-      Math.max(availableHeight, minModalHeight),
-      maxModalHeight
-    );
 
     // For mobile, position the modal below the card
     if (isMobile) {
@@ -98,18 +85,29 @@ export default function SpeakerCard({ speaker }) {
       if (left + modalWidth > window.innerWidth - padding) {
         left = window.innerWidth - modalWidth - padding;
       }
-
-      // Recalculate available height for mobile
-      const mobileAvailableHeight = window.innerHeight - top - padding;
-      const mobileHeight = Math.min(
-        Math.max(mobileAvailableHeight, minModalHeight),
-        maxModalHeight
-      );
-      return { top, left, height: mobileHeight };
     }
 
-    return { top, left, height };
+    return { top, left };
   };
+
+  // Adjust modal height based on content height
+  useEffect(() => {
+    if (showModal && contentRef.current) {
+      const padding = 20; // padding from edges
+      const minModalHeight = 200; // Minimum height for the modal
+      const maxModalHeight = window.innerHeight - modalPosition.top - padding; // Maximum height based on viewport
+
+      // Measure the content height
+      const contentHeight = contentRef.current.scrollHeight;
+
+      // Set the modal height to fit the content, but within the min and max bounds
+      const newHeight = Math.min(
+        Math.max(contentHeight, minModalHeight),
+        maxModalHeight
+      );
+      setModalHeight(newHeight);
+    }
+  }, [showModal, modalPosition, speaker.bio]); // Recalculate when modal is shown or content changes
 
   // Prevent page scroll when scrolling inside the modal
   const handleModalScroll = (e) => {
@@ -152,12 +150,14 @@ export default function SpeakerCard({ speaker }) {
             height: modalHeight, // Dynamic height
           }}
         >
-          <h2 className="text-xl font-bold text-[#073A51] mb-3">
-            {speaker.name}
-          </h2>
-          <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">
-            {speaker.bio}
-          </p>
+          <div ref={contentRef}>
+            <h2 className="text-xl font-bold text-[#073A51] mb-3">
+              {speaker.name}
+            </h2>
+            <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">
+              {speaker.bio}
+            </p>
+          </div>
         </div>
       )}
     </div>
