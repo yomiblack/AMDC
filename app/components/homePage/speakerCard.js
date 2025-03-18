@@ -1,80 +1,98 @@
 "use client";
 import Image from "next/image";
-import { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function SpeakerCard({ speaker }) {
-  const [isHovered, setIsHovered] = useState(false);
-  const bioRef = useRef(null); // Ref to store the bio element
+  const [showModal, setShowModal] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const cardRef = useRef(null);
+  const modalRef = useRef(null);
 
-  // Calculate the translateY value based on bio height
-  const calculateTranslateY = () => {
-    if (!bioRef.current) return 0;
-    const bioHeight = bioRef.current.offsetHeight; // Get the height of the bio
-    return -bioHeight - 16; // Add some extra spacing (e.g., 16px)
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  // Close on outside click for mobile
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (
+        modalRef.current &&
+        !modalRef.current.contains(e.target) &&
+        !cardRef.current.contains(e.target)
+      ) {
+        setShowModal(false);
+      }
+    };
+    if (isMobile && showModal) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMobile, showModal]);
+
+  const handleMouseEnter = () => {
+    if (!isMobile) {
+      setShowModal(true);
+    }
   };
 
-  // Apply the translateY value when hovered
-  useEffect(() => {
-    if (isHovered) {
-      const translateY = calculateTranslateY();
-      const nameElement = document.getElementById(`name-${speaker.id}`);
-      if (nameElement) {
-        nameElement.style.transform = `translateY(${translateY}px)`;
-      }
-    } else {
-      // Reset the name element to its default position
-      const nameElement = document.getElementById(`name-${speaker.id}`);
-      if (nameElement) {
-        nameElement.style.transform = "translateY(0)";
-      }
+  const handleMouseLeave = () => {
+    if (!isMobile) {
+      // small delay to reduce flicker
+      setTimeout(() => {
+        setShowModal(false);
+      }, 200);
     }
-  }, [isHovered, speaker.id]);
+  };
+
+  const handleClick = () => {
+    if (isMobile) {
+      setShowModal(!showModal);
+    }
+  };
 
   return (
     <div
-      className="relative overflow-hidden shadow-lg group mb-10"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      onClick={() => setIsHovered(!isHovered)} // For mobile click
+      ref={cardRef}
+      className="relative group cursor-pointer"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
     >
       {/* Speaker Image */}
-      <div className="relative w-full h-96">
+      <div className="relative h-96 w-full shadow-lg">
         <Image
           src={speaker.image}
           alt={speaker.name}
           fill
-          className="object-cover" // Use object-contain to ensure the entire image is visible
+          className="object-cover"
           quality={100}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive sizes
         />
+        <div className="absolute bottom-0 left-0 right-0 p-3 text-white text-left">
+          <p className="font-universe absolute bottom-4 text-[14px] font-bold max-w-[90%]">
+            {speaker.name}
+          </p>
+        </div>
+      </div>
 
-        {/* Gradient Overlay (Added Here) */}
+      {/* Floating Modal Positioned Near Image (not center screen) */}
+      {showModal && (
         <div
-          className={`absolute inset-0 bg-gradient-to-t from-[#083A51] to-white opacity-0 transition-opacity duration-300 ease-out ${
-            isHovered ? "opacity-50" : ""
-          }`}
-        />
-      </div>
-
-      {/* Speaker Name and Bio */}
-      <div className="absolute bottom-0 left-0 right-0 p-3 text-white text-left">
-        {/* Speaker Name */}
-        <p
-          id={`name-${speaker.id}`} // Unique ID for the name element
-          className={`font-universe absolute bottom-4 text-[14px] font-bold  transition-transform duration-300 ease-out max-w-[90%]`}
+          ref={modalRef}
+          className="absolute z-50 bg-white p-5 rounded-xl shadow-2xl w-[90vw] max-w-sm mt-4 left-1/2 -translate-x-1/2 transition-all duration-300 ease-in-out h-64 overflow-auto"
         >
-          {speaker.name}
-        </p>
-        {/* Speaker Bio */}
-        <p
-          ref={bioRef} // Store bio element in ref
-          className={`font-universe font-extralight text-sm transition-opacity duration-300 ease-out ${
-            isHovered ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          {speaker.bio}
-        </p>
-      </div>
+          <h2 className="text-xl font-bold text-[#073A51] mb-2 text-left">
+            {speaker.name}
+          </h2>
+          <p className="text-gray-700 text-sm leading-relaxed text-left">
+            {speaker.bio}
+          </p>
+        </div>
+      )}
     </div>
   );
 }
