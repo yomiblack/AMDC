@@ -5,7 +5,9 @@ export default async function getSpeakerData() {
       id: 1,
       image: "/speakers/speaker1.jpg",
       name: "Prof. Nellie Mutemeri",
-      bio: `Prof. Nellie Mutemeri, is a Mineral Resources Governance Expert with a PhD in Geology. She is an Adjunct Professor in the School of Mining Engineering, University of Witwatersrand, South Africa, and the Director of its Mineral Resources Governance Research Group. She is the Founder and Mining Practice Director of MutConsult an advisory service in minerals, energy and climate. She has more than 30 years’ experience in the minerals sector in Africa, Latin America and Asia, focusing on sustainability, mineral policy and strategy, ASM formalisation, skills and technology development and transfer, gender equality, and responsible supply chains. She is a scientific board member at the UNESCO International Geosciences Council Programme and is on the editorial board of EPISODES: Journal of International Geoscience. She has been recently appointed to the Editorial Advisory Board of the Mineral Economics-SpringerLink journal.`,
+      bio: `Prof. Nellie Mutemeri, is a Mineral Resources Governance Expert with a PhD in Geology. She is an Adjunct Professor in the School of Mining Engineering, University of Witwatersrand, South Africa, and the Director of its Mineral Resources Governance Research Group. She is the Founder and Mining Practice Director of MutConsult an advisory service in minerals, energy and climate. She has more than 30 years’ experience in the minerals sector in Africa, Latin America and Asia, focusing on sustainability, mineral policy and strategy, ASM formalisation, skills and technology development and transfer, gender equality, and responsible supply chains. She is a scientific board member at the UNESCO International Geosciences Council Programme and is on the editorial board of EPISODES: Journal of International Geoscience. She has been recently appointed to the Editorial Advisory Board of the Mineral Economics-SpringerLink journal.
+      
+      `,
     },
     {
       id: 2,
@@ -16,6 +18,7 @@ export default async function getSpeakerData() {
     Jerry Ahadjie is currently the Chief Minerals Officer at the African Natural Resources Management and Investment Centre of the African Development Bank, where he is contributing his quota to the implementation of the Africa Mining Vision in several countries on the continent. Before joining the Bank, he worked with the Ghana Minerals Commission and rose to the position of Deputy Manager in charge of Sectoral Policy, Planning, Projects and Investment Promotion.
 
     Mr. Ahadjie holds a BSc (Hons) in Mining Engineering and an MSc in Mineral Exploration (GIS based) from the University of Twente in the Netherlands. Jerry has several professional certificates in mineral policy & economics, mineral value chains, strategic management, mine closure and project management. Jerry has to his credit a number of publications & presentations, especially on Africa’s mining sector.
+
   `,
     },
     {
@@ -24,6 +27,8 @@ export default async function getSpeakerData() {
       name: "Prof. Olugbenga Okunlola",
       bio: `Professor Olugbenga Okunlola holds a PhD degree in Economic Geology of the University of Ibadan, Nigeria, where he is currently a full Professor and former Head, Department of Geology. 
 His 42 years’ experience straddles the public service, industry and academia. He is currently the President of the Geological Society of Africa. President of the Geoscience Information and Research in Africa Network (GIRAF) A Past President of The Nigerian Mining and Geosciences Society, He has handled numerous consultancy and advisory assignments for national and international governments and local agencies. He has about 106 publications to his credit in many reputable Journals, conference proceedings and book chapters. He holds Fellowships of the Geological Society of London and other numerous local scientific bodies. A member of the AMREC/PARC working group, Geological Society of South Africa, and of numerous boards of local and international professional associations, subgroups and technical committees.
+
+
 `,
     },
     {
@@ -31,6 +36,8 @@ His 42 years’ experience straddles the public service, industry and academia. 
       image: "/speakers/speaker4.jpg",
       name: "Mr. Kossi Toulassi",
       bio: `Mr. Kossi Toulassi is a recognised financial strategist and economic analyst leader with over 20 years of experience in driving complex financial operations, investment strategies, and sustainable growth initiatives. His vast understanding of global markets and his commitment to unlocking Africa’s vast economic potential have established him as a key figure in both private and public sector financial ecosystems. As a perceptive leader, Kossi’s career is marked by his ability to align investment strategies with sustainable growth objectives, positioning him as a trusted advisor and innovator in the financial world. Through his exemplary work ethic, comprehensive expertise, and excellent working professional relationships with key stakeholders, Kossi has established a reputation that serves Africa’s broader aspirations for success on the world stage.
+
+
 `,
     },
     {
@@ -54,6 +61,7 @@ His 42 years’ experience straddles the public service, industry and academia. 
       image: "/speakers/speaker7.jpg",
       name: "Prof. Meck Maideyi Lydia",
       bio: `Prof. Meck Maideyi Lydia is an Associate Professor at the University of Zimbabwe, specializing in Geostatistics, hydrogeology, and environmental geochemistry. With over two decades of experience in academia, research, and industry collaboration, she has contributed extensively to sustainable resource management, artisanal and small-scale mining (ASM), and groundwater quality assessment. She is a Council Member of the International Geoscience Programme (IGCP) and a member of the African Union Working Group on African Mineral Resources and Energy Classification (AMREC).  Prof. Maideyi has led multidisciplinary research projects and consultancy work in mineral resource evaluation, environmental impact assessments, and statistical modeling in  Geosciences.
+
 `,
     },
     {
@@ -69,6 +77,7 @@ His 42 years’ experience straddles the public service, industry and academia. 
       image: "/speakers/speaker9.jpg",
       name: "Prof. Theophile Ndougsa Mbarga",
       bio: `Prof. Ndougsa Mbarga  has degrees in Mining Engineering and holds a PhD in Earth Geophysics. He has been a member of the Legal and Technical Commission, International Seabed Authority since 2015. Prof. Ndougsa Mbarga is a Professor of Exploration Geophysics at the University of Yaounde 1, Former Director of Mines & Geology (ai) and Former Director of Geology at the Ministry of Mines, Industry and Technological Development in Cameroon, as well as a Professional Geoscientist and Engineer for the Australasian Institute of Mining and Metallurgy working as a consultant. He is a PARC team Member and AMREC-PARC working group.
+
 `,
     },
     {
@@ -87,7 +96,9 @@ His 42 years’ experience straddles the public service, industry and academia. 
 After completing her bachelor’s degree in mining and mineral processing engineering in 2004, She obtained a master’s degree in mineral processing in 2007 at Laval University in order to confirm her affinity in the profession.
 She has fifteen years of experience in both the private and public sectors, in research, operations and administration.
 
-She is currently working as the Prime Minister’s Advisor to the Head of Department in charge of Mines and Energy, She is also the President of the Gabonese Association of the Extractive Sector.`,
+She is currently working as the Prime Minister’s Advisor to the Head of Department in charge of Mines and Energy, She is also the President of the Gabonese Association of the Extractive Sector.
+
+`,
     },
     {
       id: 12,
@@ -97,6 +108,7 @@ She is currently working as the Prime Minister’s Advisor to the Head of Depart
 He has over 15 years’ experience in geological and geophysical
 exploration, mining law enforcement and geo-mining data management and preservation.
 Prior to joining the Ministry of Mines an Energy Resources, he worked in the private sector as a Consultant geologist in several drinking water supply projects in Togo. He is advocate of sustainable mining and minerals beneficiation in his country and in Africa.
+
 `,
     },
     {
@@ -104,6 +116,7 @@ Prior to joining the Ministry of Mines an Energy Resources, he worked in the pri
       image: "/speakers/speaker13.jpg",
       name: "Ms. NIikoh Mefeugeng Cristelle",
       bio: `Ms. Nikoh Mefeugeng Cristelle is a Cameroonian Senior Accountant with over ten years of experience advocating for tax justice, specializing in combating tax evasion and avoidance in the mining and energy sectors. Cristelle has a Master’s Degree in Finance and Tax Policy from Korea University and combines technical expertise in tax policy with a strong commitment to speaking at conferences to raise awareness of the impact of tax evasion and advocate for equitable tax systems that hold corporations accountable. Cristelle is currently the Financial Technical Officer at Cameroon’s Ministry of Water Resources and Energy, where she advocates for policy reforms to improve responsible resource management.
+
 `,
     },
     {
@@ -113,6 +126,7 @@ Prior to joining the Ministry of Mines an Energy Resources, he worked in the pri
       bio: `Sadrack Dobe is the Director General of Geology at the Ministry of Petroleum, Mines and Geology of Chad. He completed his higher education at the Faculty of Sciences of the University of Bangui in the Central African Republic, where he obtained a Master’s degree in Geology,
 with a specialization in applied geology.
 He has also studied Geospatial Information Systems at the University of the Witwatersrand in South Africa and studies on Social and Environmental Impact Management of the Mining Sector at the University of Queensland in Australia. He began his career at the Ministry of Mines in 2006 where he held several technical responsibilities. He held positions including Head of the Monitoring and Evaluation Divisions of the Ministry of Petroleum, Mines and Energy, Director of Geological Research and Mining Cadastre, Director of Mines and Geology and currently Director General of Geology. He has a total of 19 years of experience in the public sector.
+
 `,
     },
     {
@@ -121,7 +135,9 @@ He has also studied Geospatial Information Systems at the University of the Witw
       name: "Mr. Vusi Mabena",
       bio: `Mr. Vusi Mabena started his career in the public sector as a Teacher.
 Thereafter he moved on to hold different positions at different companies in the private sector. He is a qualified Teacher with a Secondary Teachers’ Diploma and holds a BA (Hons). He furthered his studies by obtaining a Post Graduate Diploma in Management and a Master of Management Degree specializing in Human Resources at the Wits Business School. He also has a Master of Philosophy degree specializing in Applied Business Ethics.
- He has held management positions at various companies that include the following sectors: Industrial Gases, Banking, Development Finance and Mining. He is currently the Executive Secretary of the Mining Industry Association of Southern Africa (MIASA) and serves on the boards of a few companies as an Independent Director. He has also served as Chairperson of the SADC RCM-TIMS representing the Private Sector. Mr Mabena is also the current Secretary General of the Association of Chambers of Mines and other Mining Associations in Africa (ACMMAA)
+ He has held management positions at various companies that include the following sectors: Industrial Gases, Banking, Development Finance and Mining. He is currently the Executive Secretary of the Mining Industry Association of Southern Africa (MIASA) and serves on the boards of a few companies as an Independent Director. He has also served as Chairperson of the SADC RCM-TIMS representing the Private Sector. Mr Mabena is also the current Secretary General of the Association of Chambers of Mines and other Mining Associations in Africa (ACMMAA).
+
+
 `,
     },
     {
@@ -133,6 +149,8 @@ of the energy and extractives sector (Oil, Gas, and Mining, Just Transition and 
 Alaka’s expertise over the years has included managing projects, strategic thinking, influencing, securing resources for programmes, piloting innovations by identifying, working with, and building key strategic partnerships with development organizations, donors, governments, oil, gas and mining companies, civil society organizations, coalitions, and networks in Kenya and the African Region.
 She is an Advocate of the High Court of Kenya and hold a Master of Laws Degree (LLM) in Energy Law and Policy from the University of Dundee in Scotland and an Executive Certificate on Oil, Gas and Mining Governance from the Blavatnik School of Government, University of Oxford. 
 She is currently the Senior Civil Society Advisor working for the Transition Minerals Campaign at Global Witness.
+
+
 `,
     },
     {
@@ -145,6 +163,7 @@ She fonded in 2016, the Association of Women in Mining in Cameroon (AFEMIC).
 In 2022, she was elected president of the Association of Women in Mining in Africa(AWIMA)for a two year mandate end in november 2024. 
 She is currently, The National Coordinator of the Planet Gold  Project and  co-fonder of Natural Resource Gender Impact Alliance (NR-GIA),  an african think thank championing gender mainstreaming in Natural Resources sector.
 She is co-author of many publications as Handbooks of ASM and Report on mining regimes in Africa with respect to the ESG objectives.
+
 `,
     },
     {
@@ -153,6 +172,8 @@ She is co-author of many publications as Handbooks of ASM and Report on mining r
       name: "Dr. Tersoo Aga",
       bio: `Dr. Tersoo Aga is an Associate Professor of Economic Geology at the University of Jos, Nigeria. 
 He currently serves as the Publicity Secretary of the Nigerian Geoheritage Association (NGA) and has scholarly contributions that encompass over 40 peer-reviewed publications. Dr. Aga is also the Lead Partner at Aga Geoscience Consulting, where he provides expert geological services to a broad spectrum of mining enterprises. Additionally, he leads master classes for the Lagos Gold and Gemstones Conference and Exhibition. Passionate about mentorship and leadership development, Dr. Aga is dedicated to guiding the next generation of professionals in his field.
+
+
 `,
     },
     {
@@ -160,6 +181,8 @@ He currently serves as the Publicity Secretary of the Nigerian Geoheritage Assoc
       image: "/speakers/speaker19.jpg",
       name: "Ms. Pauline Vande-Pallen",
       bio: `Ms.Pauline Vande-Pallen is a Programme Officer with TWN Africa, working on gender, extractives and economic policy issues. She has for over a decade been part of the team working on building a civil society constituency around the African Mining Vision (AMV). She is the lead Programme Officer at the Secretariat of the National Coalition for Mining (NCOM) a network of Ghanaian NGOs, community-based organizations in the communities affected by mining and individuals who have come together to work for mining policies, laws and practices that optimize the benefits of minerals for Ghanaians citizens and against negative impacts and outcomes.
+
+
 `,
     },
     {
@@ -175,13 +198,16 @@ He currently serves as the Publicity Secretary of the Nigerian Geoheritage Assoc
       image: "/speakers/speaker21.jpg",
       name: "Thabani Mlilo",
       bio: `Thabani is the Managing Director of Moahi Sustainable Solutions, a boutique sustainability advisory company, and an Adjunct Professor at the University of Cape Town, Chemical Engineering Faculty, Mining to Minerals Department. He has over 23 years’ experience in the Sustainability field, primarily focused on Mining. Thabani’s previous roles have included Executive Head of Sustainability at KAP, Executive Head of Safety, Health and Sustainability at ERG Africa, Head of Sustainability at Anglo American Platinum, and Sustainability Manager at AngloGold Ashanti.
-His main areas of work and research are, Decarbonisation and Low Carbon Economy, Critical Minerals, Artisanal and Small Scale Mining, Responsible Sourcing, and Leadership development. Thabani is a member of the African Union Technical committee on Mining and Extractive Model Law, a senior fellow at the Cambridge Institute of Sustainable Leadership and the Sustainable Development Lead for the G20 Values advocacy working Group.`,
+His main areas of work and research are, Decarbonisation and Low Carbon Economy, Critical Minerals, Artisanal and Small Scale Mining, Responsible Sourcing, and Leadership development. Thabani is a member of the African Union Technical committee on Mining and Extractive Model Law, a senior fellow at the Cambridge Institute of Sustainable Leadership and the Sustainable Development Lead for the G20 Values advocacy working Group.
+
+`,
     },
     {
       id: 22,
       image: "/speakers/speaker22.jpg",
       name: "Mr. Sephela Makete Thema",
       bio: `Mr. Sephela Makete Thema is a mining engineer and mining sustainability executive with over 14 years of experience and currently employed as General Manager for Tailings and Remining at Fraser Alexander’s South African and Namibian operations. He also serves on the Board of a Fraser Alexander’s Joint Venture subsidiary with a mining host community in South Africa. Fraser Alexander is the largest outsourced tailings management service provider in the world. Sephela holds a BSc, MSc, Oxford Executive Leadership Program and a Postgraduate Diploma in Business Administration. He serves on the Southern Africa Institute of Mining and Metallurgy (SAIMM)’s Young Professionals Council.
+
 `,
     },
     {
@@ -190,6 +216,7 @@ His main areas of work and research are, Decarbonisation and Low Carbon Economy,
       name: "Ms. Lightness Mushi",
       bio: `Ms. Lightness Mushi is a passionate advocate for youth and women’s empowerment in Africa’s mining sector. As Head of Communication for Tanzania Women in Mining and Mineral Industry (TWiMMI), she drives impactful initiatives that have empowered over 2,400 women and youth with technical skills, business acumen, and mentorship. Through strategic advocacy and capacity-building programs, she fosters a more inclusive, sustainable, and innovative mining industry. A distinguished alumna of the LEAD Programme at the University of Cape Town, 
 Lightness is dedicated to amplifying youth participation in mining, ensuring they play a pivotal role in shaping the sector’s future across Africa.
+
 `,
     },
     {
@@ -211,6 +238,8 @@ KNOWLEDGE GENERATION AND SHARING
 On the continental level, he supports the UNDP’s effort in implementing the African Mining Vision (AMV) through technical and policy advisory services to a dozen of African countries and collaborate closely with AMDC on continental minerals development agenda setting.   
 
 Prior to joining UNDP, Lacina worked extensively to bridge the extractives sector with development in West and Central Africa (Burkina Faso, DRC, and Guinea) where worked at the crossroads with governments, parliaments, corporations, CSOs and INGOs and mining communities to improve sector governance and strengthen mines-community relations, environmental management systems and CSR. He contributed to mining sector’s legal and policy reforms across Africa. Lacina holds an MSc. in Development Sociology from the University of Ouagadougou, Burkina Faso. 
+
+
 `,
     },
     {
@@ -228,6 +257,8 @@ Prior to joining UNDP, Lacina worked extensively to bridge the extractives secto
       bio: `Mecktilder M. M stands as a distinguished strategist and innovator in the African mining sector, with a focus on sustainable practices and empowering women and youth. As Co-Founder and CCO of WOOW ME JEWEL LTD, she transforms ethically sourced gemstones into elegant jewelry, bridging the gap between African miners and global markets. Her role as Co-Founder and Executive Director at Tanzania Women in Mining & Mineral Industry (TWiMMI)  highlights her dedication to enhancing women and youth's participation in mining.
  
 Mecktilder's influence extends across Tanzania, and Africa where she has significantly contributed to the economic empowerment of over 3900 women n youth in mining. Her initiatives have created pivotal market opportunities and fostered sustainable sector growth. Additionally, her work in health and safety training, Value addition, ASM particularly in Tanzania, has directly improved miners' well-being.
+
+
 `,
     },
     {
@@ -243,6 +274,7 @@ Mecktilder's influence extends across Tanzania, and Africa where she has signifi
       image: "/speakers/speaker28.jpg",
       name: "Kundai Chikonzo Midzi",
       bio: `Kundai Chikonzo Midzi is a Zimbabwean businesswoman and mining industry pioneer. She has established several companies and founded the Insiza Women In Mining trust. Chikonzo Midzi  holds various leadership positions, including Chairperson of the Zimbabwe Association of Women in Mining Associations (ZAWIMA) and Secretary General of the SADC Women in Mining Association and Executive  Board Member of Association of Women in Mining Associations (AWIMA)A recipient of several awards, Chikonzo Midzi has a strong educational background in accountancy, taxation, mining, and project management. She is a respected advocate for women's empowerment in mining.
+
 `,
     },
     {
@@ -251,6 +283,8 @@ Mecktilder's influence extends across Tanzania, and Africa where she has signifi
       name: "Maspalma Samson Stanley",
       bio: `MASPALMA Samson Stanley, Born: 18TH November, 1973 in, Pella Hong LGA Adamawa State, Nigeria. He is a Geologist, Assistant Director and Special Adviser to the Director General Nigerian Geological Survey Agency (NGSA), Abuja. His experience and expertise spans 18 years, of Field and research experience cutting across, Mineral Exploration, Geological Research, Environmental Management and Resource classification. He is a Co-Author of Nigerian case study on Uranium Resource Reporting, a Publication of the United Nations Framework Classification
 (UNFC), 58 th Energy Series of the UNECE, UN, 2018. He is a Member of AMREC Working Group, a Young and Next generation Geologist that has been Advocating for the Pan African Resource Reporting Code (PARC), a continental framework for African People aimed at harmonizing minerals Resource Reporting across the continent for Sustainable Growth, Development, Environmental management of African Minerals Resource, Driven by, the Africans.
+
+
 `,
     },
     {
@@ -258,6 +292,7 @@ Mecktilder's influence extends across Tanzania, and Africa where she has signifi
       image: "/speakers/speaker30.jpg",
       name: "Mr. Leshilo William",
       bio: `William has over 30 years’ experience in the Mining Industry and currently serves as the Vice President: Government Relations and Community Business Partner for AngloGold Ashanti since 2014 responsible for build strong relationships, maximize operating performance and facilitate the achievement of financial goals through strategic engagements, leadership and management of government relations and community groups across all AngloGold Ashanti Operations.
+
 `,
     },
     {
@@ -273,13 +308,17 @@ Under Mungofa's leadership, Mureza Auto Co has made significant strides in the i
 Mungofa's achievements have not gone unnoticed. He has been featured in several media outlets, including The Entrepreneurial Magazine, and has been recognized as one of the most promising young entrepreneurs in Africa ¹.
  
 Despite his success, Mungofa remains humble and committed to his vision of creating a sustainable and prosperous automotive industry in Africa. As he once said, "I encourage everyone to just start. Do not wait until you have enough money. Develop relationships that motivate and support your goals in life"
+
+
 `,
     },
     {
       id: 32,
       image: "/speakers/speaker32.jpg",
       name: "Dr. Daniel Kwayisi",
-      bio: `Dr. Daniel Kwayisi is a Senior Lecturer at the University of Ghana, Department of Earth Science. He specializes in petrology and tectonics, holding degrees from the University of Ghana and a PhD from the University of Johannesburg. With over a decade of research on the Precambrian geology of West Africa, he has numerous publications in local and international journals. He is a Life Member and Information Officer of the Geological Society of Africa and a member of the Ghana Institute of Geoscientists, AMREC Working Group, the Geological Society of South Africa, and the European Association of Geochemistry.`,
+      bio: `Dr. Daniel Kwayisi is a Senior Lecturer at the University of Ghana, Department of Earth Science. He specializes in petrology and tectonics, holding degrees from the University of Ghana and a PhD from the University of Johannesburg. With over a decade of research on the Precambrian geology of West Africa, he has numerous publications in local and international journals. He is a Life Member and Information Officer of the Geological Society of Africa and a member of the Ghana Institute of Geoscientists, AMREC Working Group, the Geological Society of South Africa, and the European Association of Geochemistry.
+      
+      `,
     },
     {
       id: 33,
@@ -296,6 +335,8 @@ His expertise includes international moderator experience  at the AU and some of
 Bènsah is Ghana rep & coordinator for AUDA-NEPAD's Agenda 2063 Media Network since 2018. He also supports the African Minerals Development Centre with communications in his capacity as Member of AMDC Media Forum.
 He has been relentless on pushing for more ratifications of AU Freedom of Movement Protocol since 2018 in his capacity as Deputy Executive Director of Afcfta Policy Network, where in 2020, he single-handedly engaged IOM Special Liaison Office in Addis (SLO) to support APN to promote FMP, which was activated in August 2021. 
 As a consequence, he was nominated as a Migration Health Advocacy Consultant in 2022 for a one-month project unpacking migration health; universal health coverage; and FMP for IOM's Regional Office in Nairobi.
+
+
 `,
     },
     {
@@ -310,6 +351,8 @@ Zenzi is currently the Founder and Principal Consultant of EmpowerMine Consultin
 The accolades bestowed upon Zenzi are a testament to her influential standing within the mining industry.
 In 2020, The Mining Global Magazine honored her by ranking her as the third most inspirational woman in mining in their esteemed "Top 10 Global Women in Mining" list.
 In 2021, she received the Most Excellent Order of the Eagle Award, First Class, from the Namibian President , Dr Hage Geingob, for her outstanding contribution to the country's socio-economic development and transformation.
+
+
 `,
     },
     {
@@ -321,6 +364,8 @@ She holds a master’s in Energy and Natural Resources Law from the University o
 Noreen has offered her expertise to the International Bar Association’s Energy Transition
 Working Group, the Energy and Infrastructure Taskforce of the America Chamber of Commerce (Kenya) and the Kenya Green Building Society.
 She currently serves as Chairperson of the Association for Women in Energy and Extractives in Kenya.
+
+
 `,
     },
   ];
