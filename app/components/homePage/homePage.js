@@ -9,10 +9,13 @@ import Attendees from "./attendees";
 import Gallery from "./gallery";
 import getSpeakerData from "./getSpeakerData";
 import Attending from "./attending";
+import getGalleryData from "./getGalleryData";
 
 export default async function HomePage() {
   const eventDate = new Date("2025-03-19T10:00:00");
   const speakers = await getSpeakerData();
+  const galleryImages = await getGalleryData();
+
   return (
     <div className="w-screen">
       <Header />
@@ -22,7 +25,7 @@ export default async function HomePage() {
       <Attendees />
       <Speakers speakers={speakers} />
       <Attending />
-      <Gallery />
+      <Gallery galleryImages={galleryImages} />
       <Venue />
       <Footer />
     </div>
