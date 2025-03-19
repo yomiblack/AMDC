@@ -412,6 +412,127 @@ Oil and Gas
 On the other hand, we are planning to acquire an onshore oil block with an estimate reserve of 186Mbbl that we have been analysing for the last two years in central Africa
 `,
     },
+    {
+      id: 46,
+      image: "/speakers/speaker46.jpg",
+      name: "Dr. Amany Asfour",
+      bio: `Dr. Amany Asfour serves as a senior advisor at the Africa Business Council, specializing in strategic business interventions and policy guidance that promote sustainable mining development.
+`,
+    },
+    {
+      id: 47,
+      image: "/speakers/speaker47.jpg",
+      name: "Mr. Tabi T. Tabi",
+      bio: `Mr. Tabi T. Tabi is a visionary entrepreneur with over 20 years of experience in the renewable energy and technology industries. As the Founder and CEO of Granville Energy and Tabi Group, he is pioneering Africa’s transition to sustainable energy solutions and global digital transformation. With expertise in clean technology, IT service management (ITSM), enterprise service management (ESM), and business development, he is shaping the future of renewable energy and industrial transformation across the continent.
+At Granville Energy, Tabi leads efforts to provide high-quality, efficient, and competitively priced solar power components, empowering EPCs and minigrid developers to scale sustainable energy solutions across Africa. His mission extends beyond distribution—he is actively driving local manufacturing initiatives to strengthen Africa’s clean energy value chain and reduce reliance on imports.
+Through Tabi Group (www.tabi-group.com), Tabi has established a global leader in IT Service Management (ITSM) and Enterprise Service Management (ESM) technical consulting and education. The company provides cutting-edge solutions that help organizations optimize their IT operations, enhance service delivery, and achieve operational excellence. With a strong focus on digital transformation, Tabi Group empowers businesses worldwide with expert training, innovative strategies, and best-in-class consulting services in ITSM and ESM frameworks.
+Previously, Tabi held leadership roles in technology consulting, energy infrastructure development, and digital transformation initiatives, working with multinational organizations to implement sustainable and scalable solutions. His strategic expertise has driven multi-million-dollar projects, advancing both energy accessibility and IT service excellence.
+A thought leader in Africa’s renewable energy landscape and the global ITSM/ESM industry, Tabi is committed to solving critical challenges through innovative financing, strategic partnerships, and advanced technology deployment. He frequently speaks on energy transition, sustainable development, ITSM/ESM best practices, and unlocking Africa’s vast potential through clean power and industrial growth.
+Driven by a vision of energy independence, digital transformation, and economic empowerment, Tabi T. Tabi is at the forefront of Africa’s clean energy revolution and global IT service innovation. Connect with him to collaborate on transformative energy, technology, and investment opportunities.
+`,
+    },
+    {
+      id: 48,
+      image: "/speakers/speaker48.jpg",
+      name: "Mr. Deng Ngang Denge",
+      bio: `Mr. Deng Ngang Denge is a Professional geologist with mining and mineral exploration experiences. Always seeking new opportunities that will further develop my skills for a long-term career goal.
+`,
+    },
+    {
+      id: 49,
+      image: "/speakers/speaker49.jpg",
+      name: "Prof. Opafunso Zacheus",
+      bio: `Prof. Opafunsho Zacheus brings extensive academic and field experience to moderate sessions on AMREC implementation, driving collaborative discussions that integrate digital strategies with sustainable mining practices.
+`,
+    },
+    {
+      id: 50,
+      image: "/speakers/speaker50.jpg",
+      name: "Paulo Tanganha",
+      bio: `Paulo Tanganha is a consultant to the Secretary of States for Mines - provide technical support on the implementation of the Angolan´s government politics for the geology and mining sector.
+Exposure to the Value Chain of all mineral resources being mined in Angola (diamonds, iron ore, gold, copper, phosphates, mineral water, semi-precious stones, ornamental rocks and other construction materials).
+Highly experienced in Diamond prospecting techniques, Operation Management , Leadership and Performance Management in the Diamond Industry.
+Experience in designing Prospecting Activity Work Programme and Budgeting. Exposure to Senior Management, allowed me to acquire skills on Senior Technical Management tasks and Business Management.
+Highly motivated to continuously learn more about other commodities and Manage Mineral Resource Businesses.
+Specialties: Diamond Exploration (From Reece to Resource Phase), Mineral Resource Industry.
+`,
+    },
+    {
+      id: 51,
+      image: "/speakers/speaker51.jpg",
+      name: "Mr. Kenneth Okwaroh",
+      bio: `Kenneth Okwaroh is a Research Associate and Executive Director at Africa Centre for People Institutions and Society (ACEPIS) – an Afrocentric think-tank dedicated to bolstering access to and use of credible information to shape public dialogue and inform policy. He leads a team of public policy analysts researching the nexus between tax, sovereign debt and trade and engaging government, civil society, international organisations and private sector on policy proposals for financing sustainable development in Africa. Okwaroh is reader and commentator on fiscal and social policy in Africa. 
+`,
+    },
+    {
+      id: 52,
+      image: "/speakers/speaker52.jpg",
+      name: "Mr. Moses Tshetlane",
+      bio: `Mr. Moses Tshetlane, Having acquired a Bachelor of Science Degree and a Diploma in Banking, he has a good appreciation of technical and business aspects of mining operations.My goal is to develop as a Business Analyst in the Mining or Financial Services sector.Currently doing Msc. in Mineral And Energy Economics at Curtin Graduate School of Business in Perth(Jan 2012 - Aug 2013).
+Specialties: Mining & Economics,Finance & International Trade.
+`,
+    },
+    {
+      id: 53,
+      image: "/speakers/speaker53.jpg",
+      name: "Mr. Mohamed Stevens",
+      bio: `Mr. Mohamed Stevens represents ALSF and is dedicated to driving innovation in the mining sector through strategic policy development and the adoption of sustainable practices.
+`,
+    },
+    {
+      id: 54,
+      image: "/speakers/speaker54.jpg",
+      name: "Gerald Mwila",
+      bio: `Gerald Mwila is an experienced Water, Sanitation and Hygiene WASH-Specialist with a demonstrated history of working in the non-profit organization management industry.
+Strong professional skilled in Mineral Exploration, Arcgis Products, Geology, Hydrogeology, Engineering geology and Environmental Management, Geological & geochemical Sampling, and MapInfo.
+`,
+    },
+    {
+      id: 55,
+      image: "/speakers/speaker55.jpg",
+      name: "Ms. Monica Gichuhi",
+      bio: `Promoting responsible sourcing of minerals from Africa to ensure greater benefits of extraction to source countries. Advocating for value addition of minerals inline with the Africa Mining Vision through establishing linkages and collaborations in the minerals value chain. Passionate about supporting and working with artisanal and small scale miners(ASM) in attaining their formalization. Adept at advocating for the inclusion and participation of women in the mining industry.
+`,
+    },
+    {
+      id: 56,
+      image: "/speakers/speaker56.jpg",
+      name: "Dr. Alecia NDHLOVU",
+      bio: `Dr. Alecia Ndhlovu is  a Senior Lecturer in the Department of Political Studies at the University of Cape Town. Her background is in International Relations, Comparative Politics, and Applied Economics, and my teaching and research interests are in the political economy of development, particularly how political institutions impact development outcomes in Africa’s resource economies. She also examine the geopolitics of energy and mining, including the complex relationships between resources, trade, and global governance.
+`,
+    },
+    {
+      id: 57,
+      image: "/speakers/speaker57.jpg",
+      name: "Mr. Bright Foli",
+      bio: `Mr. Bright Foli With over 10 years of work experience in the oil and gas and mineral processing sectors, He is passionate and driven Program Manager at Amira Global, a leading provider of innovative solutions for the mining industry. I am responsible for delivering high-quality programs and projects across Africa, as well as providing global support for mineral processing operations. I am motivated by the mission of Amira Global to create sustainable value for the mining industry and its stakeholders, and I strive to contribute to its vision of transforming the sector through innovation and collaboration. I bring diverse perspectives and experiences to the team, and I value learning, excellence, and integrity.
+`,
+    },
+    {
+      id: 58,
+      image: "/speakers/speaker58.jpg",
+      name: "Mr. Maguwu Farai",
+      bio: `Mr. Maguwu Farai With over 15 years of experience in research and advocacy, I specialize in human rights, natural resource governance, community rights, women's rights, environmental justice, animal welfare, and biodiversity protection. In 2012, I was honored with the Alison des Forges Award for Extraordinary Activism by Human Rights Watch in recognition of my impactful work. Read more here.
+As the founder and leader of the Centre for Natural Resource Governance, I also provide consultancy services on sustainable natural resource management. My advocacy is rooted in empowering grassroots communities to build collective power and address the externalized costs of extractivism, while demanding fair compensation for the exploitation of their natural resources.
+A passionate climate justice campaigner, I collaborate with a wide range of stakeholders to confront the urgent climate crisis. Through grassroots-driven actions such as organizing counter COP events, engaging in storytelling, and hosting conferences, I advocate for climate justice solutions that are inclusive, people-centered, and eco-friendly.
+As a change-maker, I believe that an equitable, sustainable, and eco-conscious world is not only necessary but achievable within our lifetime.
+`,
+    },
+    {
+      id: 59,
+      image: "/speakers/speaker59.jpg",
+      name: "Wilson Mutagwaba",
+      bio: `Wilson Mutagwaba is a result oriented manager believing in delivering for his clients on timely manner and good quality products of his work.
+`,
+    },
+    {
+      id: 60,
+      image: "/speakers/speaker60.jpg",
+      name: "Mutero Thekla",
+      bio: `Thekla Mutero Founder and President of Emerging Mining Association of Namibia 
+ Board Chairperson of Southern African Miners Consortium , Multiple Award winners | Motivational Speaker, Doer and Ready to from the heart.
+`,
+    },
   ];
   return speakers;
 }
