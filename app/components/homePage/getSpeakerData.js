@@ -320,6 +320,98 @@ Working Group, the Energy and Infrastructure Taskforce of the America Chamber of
 She currently serves as Chairperson of the Association for Women in Energy and Extractives in Kenya.
 `,
     },
+    {
+      id: 36,
+      image: "/speakers/speaker36.jpg",
+      name: "Mrs. Ron Osman",
+      bio: `Mrs. Ron Osman serves as the Director for Industry, Minerals, Entrepreneurship and Tourism at the African Union Commission, leading initiatives that shape policy and drive innovation in the mining industry.
+`,
+    },
+    {
+      id: 37,
+      image: "/speakers/speaker37.jpg",
+      name: "Dr. Marit Kitaw",
+      bio: `Dr. Marit Kitaw is an Experienced Economist working on natural resources for economic transformation and Sustainable development in Africa, with extended experience working on minerals for sustainable development. Skilled in Policy and Technical Advisory Services, Minerals, International Development, and Program Management. Strong analysis and policy advisory professional with a Doctor of Philosophy (Ph.D.) focused on Economics from Université Nice Sophia Antipolis. 
+`,
+    },
+    {
+      id: 38,
+      image: "/speakers/speaker38.jpg",
+      name: "Mr. Mkhululi Ncube",
+      bio: `Mr. Mkhululi Ncube represents AU-AMDC and offers extensive experience in artisanal and small-scale mining, advising on strategic policies and community-centered approaches in the sector.
+`,
+    },
+    {
+      id: 39,
+      image: "/speakers/speaker39.jpg",
+      name: "Mr. Kojo Busia",
+      bio: `An experienced Non-Executive Director (NED) with an extensive track record in shaping the future of corporate governance, strategy, and sustainability aligned with Environmental, Social, and Governance (ESG) principles. With three solid decades of professional experience spanning public, private sector and civil society domains, I have dedicated my career to addressing complex challenges in good governance, environmental stewardship, and ethical corporate leadership, particularly in the context of African mineral resources. My career trajectory has been diverse and impactful, reflecting my commitment to driving positive change and sustainability.
+Currently, I serve as one of the Founding Directors of Green Africa Minerals (GAM) FZCO, a private company headquartered in Dubai, UAE, specializing in green minerals exploration and project development. Its operating subsidiary, Green Africa Minerals (Tanzania) Ltd., is incorporated in Tanzania. GAM has investment interests in green minerals in diverse jurisdictions such as Namibia, DRC, and Nigeria, in line with the company’s growth strategy.
+I am also the founding Director of AMV Resources Partners Ltd., an investment facilitation and advisory firm based in Accra, Ghana. AMV Resources Partners is dedicated to bridging the capital gap for mining property license holders, facilitating equity investments in highly prospective green minerals projects across Africa.
+In my role as a Non-Executive Director at AngloGold Ashanti Group Ltd., one of the world's largest gold mining companies, I chair the Board's Social, Ethics, and Sustainability Committee, and serve as a member of the Investment and Nominations Committees. I lead the Board’s oversight of the company's Climate Change, Sustainability, and Environment, Social, and Governance (ESG) strategies and disclosure responsibilities.
+Prior to my corporate governance and private sector leadership roles, I held various leadership positions in both multilateral and bilateral organizations, including Chief of the Natural Resources Management Section at the United Nations Economic Commission for Africa (UNECA), Coordinator of the African Mineral Development Centre (AMDC), and Chief of Section of the African Peer Review Mechanism (APRM), a unit at the United Nations Economic Commission for Africa.
+My career has been characterized by a commitment to strengthening good governance in public and private sectors, promoting sustainability and ESG, and fostering equitable socio-economic development
+`,
+    },
+    {
+      id: 40,
+      image: "/speakers/speaker40.jpg",
+      name: "Ms. Nancy Kgengwenyane",
+      bio: `Nancy Kgengwenyane is a lawyer with specialization in environmental law; with experience in designing, implementing and management of programmes and projects in the areas of democratic governance and environmental governance from a human rights based approach to programming and development. The focus under the area of democratic governance includes human rights, anti-corruption, public sector reforms and access to justice. Focus areas under environmental governance include, water, energy, mineral, natural resources, climate change and environmental law.
+Organizations which Nancy has previously worked for include Government of Botswana, UNDP and USAID Integrated River Basin Management Project. Nancy has also worked closely with civil society organizations and the private sector in the area of sustainable development.
+Currently as a Regional Advisor at UNECA, responsibilities include advisory services to RECs, regional institutions and member states on natural resources development (minerals, water and energy) and cooperation with UNECA sister divisions dealing with climate change issues.
+The broad aim is to continue contributing to the sustainable development initiatives and measures for further enhancement of human development and the environment.
+`,
+    },
+    {
+      id: 41,
+      image: "/speakers/speaker41.jpg",
+      name: "Mr. Theophilus Adoko",
+      bio: `Mr. Theophilus Adoko delivers key presentations on AMGF Assessments, providing critical insights into mining evaluations across multiple African countries to inform effective strategic planning.
+`,
+    },
+    {
+      id: 42,
+      image: "/speakers/speaker42.jpg",
+      name: "Dr. Claude Kabemba",
+      bio: `Dr. Claude Kabemba is an Executive Director of the Southern Africa Resource Watch (SARW), I lead a team of dedicated professionals who work to ensure that the natural resources of the continent are managed in a transparent, accountable, and equitable manner. He has over 26 years of experience in research, policy and advocacy on democratic governance, international politics, natural resource governance, ESGs and development in Africa.
+He hold a PhD in International Relations from the University of the Witwatersrand, where he also obtained my Master's and Bachelor's degrees. He has edited couple of books, published book chapters and articles on the topics of democratization, African state, election politics, social policies and natural resource governance drawing on my field experience in Southern and Central Africa. He is  passionate about advancing the rights and interests of the communities affected by the exploitation of natural resources and climate change, and fostering dialogue and cooperation among various stakeholders.
+`,
+    },
+    {
+      id: 43,
+      image: "/speakers/speaker43.jpg",
+      name: "Mr. Maurice Miema",
+      bio: `Mr. Maurice Miema is currently Director at Center of Expertise, Evaluation and Certification of minerals (CEEC), a state-owned Agency reporting to the Ministry of Mines in the DRC.
+
+With a background in international trade and global political economy, he has extensive experience in in mining governance, more particularly in compliance and implementation of requirements in responsible mining and sourcing in reference with the Kimberly Process Certification Scheme, ICGLR Regional Certification Mechanism and OECD Due Diligence Guidance in High Risks Areas.
+
+He represents the DRC in the Kimberley Process where he is serving as Chair of the Working Group on Artisanal and Alluvial Production. He has also recently served as Expert in the United Nations Secretary General Panel on Critical Energy Transition Minerals and is involved in developing priorities for the UN High Level Expert Advisory Group on Critical Energy Transition minerals
+
+He holds an MBA in International Relations and Diplomacy from the University of Cumbria, UK.
+`,
+    },
+    {
+      id: 44,
+      image: "/speakers/speaker44.jpg",
+      name: "Mrs. Anna Nguno",
+      bio: `Anna Nguno is a seasoned geologist and public servant with over 25 years of experience. Her contributions extend to global geoscience policy development, resource classification and management frameworks, and advisory roles in academia and government.
+
+She holds leadership positions in several professional organizations, including Vice-President for Southern Africa at the Geological Society of Africa, President of the Geoscience Council of Namibia, Vice-President (Sub-commission for Africa Maps, Commission for the Geological Map of the World (CGMW), Committee Member and a member of multiple international technical working groups (i.e., AU- African Mineral and Energy Resources Classification and Management System (AMREC)-African Resource Reporting Code (PARC).
+`,
+    },
+    {
+      id: 45,
+      image: "/speakers/speaker45.jpg",
+      name: "Mr. Tresor Chovu",
+      bio: `Mr. Tresor Chovu leads Chovu oversees the strategic development of Chovu International Holdings Ltd. The company is currently involved in the acquisition of precious and critical minerals licenses ( Gold, Copper, Nickel, Lithium, Vanadium, Cobalt) and oil & gas assets to be developed with strategic partners. Our goal is to create value and return for our stakeholders.
+Mining
+Namibia: Our core project is the fully owned EPL8956 gold exploration in Namibia. A mining property positioned within 120 km of B2gold Otjikoto mine and Osino Twin Hills gold discovery. EPL 8956 was previously explored by Rio Tinto and Teck Resources.
+DRC: Mbanza-Ngungu Strategic Project (Vanadium and Lead). We have put an application to the government for a property located in a brownfield area which was explored by Falcon Bridge in the 1970s with reserve estimates at 20,000t @1.64% V205 and 3.22% Pb.
+Oil and Gas
+On the other hand, we are planning to acquire an onshore oil block with an estimate reserve of 186Mbbl that we have been analysing for the last two years in central Africa
+`,
+    },
   ];
   return speakers;
 }
