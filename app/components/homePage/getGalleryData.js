@@ -35,7 +35,23 @@ export default async function getGalleryData() {
     {
       day: "Day 3",
       labelColor: "#CEA631",
-      images: ["/gallery/day3/1.jpeg"],
+      images: [
+        "/gallery/day3/1.png",
+        "/gallery/day3/2.png",
+        "/gallery/day3/3.png",
+        "/gallery/day3/4.png",
+        "/gallery/day3/5.png",
+        "/gallery/day3/6.png",
+        "/gallery/day3/7.png",
+        "/gallery/day3/8.png",
+        "/gallery/day3/9.png",
+        "/gallery/day3/10.png",
+        "/gallery/day3/11.png",
+        "/gallery/day3/12.png",
+        "/gallery/day3/13.JPG",
+        "/gallery/day3/14.JPG",
+        "/gallery/day3/15.JPG",
+      ],
     },
   ];
 

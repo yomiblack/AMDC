@@ -149,7 +149,7 @@ export default function Gallery({ galleryImages }) {
             </div>
 
             {/* Thumbnails */}
-            <div className="flex gap-2 p-3 mt-2 overflow-x-auto w-full max-w-4xl scrollbar-hide">
+            <div className="flex gap-2 p-3 mt-2 overflow-x-auto  w-full max-w-4xl">
               {currentImages.map((img, idx) => (
                 <div
                   key={idx}
